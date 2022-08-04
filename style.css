@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;   
+}
+
+header#cabecalho {
+    margin: 50px 123px;
+   
+}
+
+input {
+    display: block;
+    margin: -50px auto 0px;
+    width: 500px;
+    height: 34px;
+    border: 1px solid #424242;
+    border-radius: 20px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+img#lupa { 
+    position: absolute;
+    display: block;
+    margin: -32px 1050px;
+}
+
+div#icones {
+    margin: -30px 1487px;
+    display: flex;
+    gap: 5px;
+}
+
+.botaocor:hover {
+    background-color: #E3E3E3;
+    height: 20px;
+    border: 1px solid #E3E3E3;
+    border-radius: 6px;
+}
+
+.botao2cor:hover { 
+    background-color: #E3E3E3;
+    height: 20px;
+    border: 1px solid #E3E3E3;
+    border-radius: 8px;
+}
+
+div#arrobabox {
+    margin-top: 5px;
+    padding-left: 7px;
+    font-family: 'Montserrat', sans-serif;     
+}
+
+
+section#nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;   
+    
+}
+
+section#nav > nav {
+    text-align: center;
+    width: 115px;
+    background-color: #b2b2b2;
+    color: white;
+    font-family: 'Montserrat', sans-serif;   
+    border: 1px solid #B2B2B2; 
+    padding: 8px 8px;
+    border-radius: 10px 0px;
+    
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+	color: black;
+}
+
+img#banner {
+    display: block;
+    margin: 50px auto;
+}
+
+div#backgroundbanner {
+    background-color: #E3E3E3;
+}
+
+section#dicas {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 33px 0px 50px;
+}
+
+div#duvidas > img {
+    float: left;
+    margin: 0px 25px 0px 0px;
+    
+}
+
+div#envio > img {
+    float: left;
+    margin: 0px 25px 0px 0px;
+    
+}
+
+div#cartao > img {
+    float: left;
+    margin: 10px 25px 0px 0px; 
+}
+
+section h2 {
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 6px;
+}
+
+section div#duvidas {
+    background-color: #E3E3E3;
+    border: 1px solid #E3E3E3; 
+    border-radius: 10px 0px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    width: 255px;
+    
+}
+
+section div#envio {
+    background-color: #E3E3E3;
+    border: 1px solid #E3E3E3;
+    border-radius: 10px 0px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    width: 255px;
+}
+
+section div#cartao {
+    background-color: #E3E3E3;
+    border: 1px solid #E3E3E3;
+    border-radius: 10px 0px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px; 
+    width: 255px;    
+}
+
+
+section p { 
+    text-align: center;
+}
+
+p#paragrafo {
+    
+}
+
+section#canecasimg {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+section#canecasimg > img {
+    border-bottom: 20px solid #B2B2B2;
+}
+
+div#titulosdecanecas {
+    display: flex;
+    /* justify-content: space-evenly; */
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25px;
+    gap: 580px;
+    margin-left: 450px;
+}
+
+div#titulosdepreços {
+    display: flex;
+    /* justify-content: space-evenly; */
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25px;
+    gap: 730px;
+    margin-left: 525px;
+    font-weight: bolder;
+}
+
+footer#rodape {
+    background-color: #B2B2B2;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 60px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 35px 35px 0px 0px;
+}
+
+p#footerdesenvolvido {
+    width: 297px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: auto 0px;
+    padding: 6px;
+}
+
+p#footerdesenvolvido > img {
+    margin: 4px 0px -4px 0px;
+}
+
+p#logoboxfooter {
+    margin: auto 0px;
+}
